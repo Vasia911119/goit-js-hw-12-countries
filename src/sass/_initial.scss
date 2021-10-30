@@ -1,0 +1,91 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  background-image: url(https://images.pexels.com/photos/10011944/pexels-photo-10011944.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.title {
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+.input-country {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: #001d1a;
+}
+
+.text {
+  margin: 0 0 5px;
+}
+
+.list {
+  margin: 0 0 5px 0;
+}
+
+.countries-list {
+  display: flex;
+  flex-direction: column;
+  // width: 25%;
+  margin: 0 auto;
+  background-color: rgb(0, 40, 41);
+  border-radius: 0 0 10px 10px;
+}
+
+.description {
+  margin-right: 30px;
+}
+
+.flag-img {
+  width: 150px;
+  height: 100px;
+}
+
+.main-container,
+.country-container {
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  width: 30%;
+  border-radius: 10px 10px 0 0;
+}
+
+.main-container {
+  margin-top: 50px;
+}
+
+.country-container {
+  border-radius: 0 0 10px 10px;
+}
+
+.country-box {
+  background-color: rgb(0, 40, 41);
+  border-radius: 0 0 10px 10px;
+}
+
+.main-box {
+  padding: 15px;
+  background: rgb(0, 40, 41);
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+
+.error-box {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
