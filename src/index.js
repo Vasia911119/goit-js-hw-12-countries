@@ -18,12 +18,12 @@ function onInput() {
         return markupOutput(0);
     };
     fetchCountries(refs.input.value).then(data => {
-    if (!data.length) {
-        markupOutput(0);
+        if (!data.length) {
+        refs.output.innerHTML = '';
         return errorMsg('There is no such country. Refine your request.');
         };
         if (data.length > 10) {
-        markupOutput(0);
+        refs.output.innerHTML = '';
         errorMsg('Too many matches found. Please enter amore specific query!');
     } else if (data.length > 2 && data.length <= 10) {
         markupOutput(countriesList(data));
